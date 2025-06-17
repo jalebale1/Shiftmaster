@@ -1,0 +1,43 @@
+VAŽNO: Molim te da NE počneš odmah pisati kod.
+
+Prvo pročitaj cijeli prompt i odgovori mi s kratkim planom: kako bi ti ovo napravio, kojim redoslijedom i što predlažeš za strukturu. Tek nakon toga, kada ti dam "green light", možeš krenuti s pisanjem koda.
+
+# CILJ:
+Pretvori moj trenutni Java desktop projekt "ShiftMaster" (aplikacija za izradu rasporeda smjena) u modernu **web aplikaciju** koja se pokreće putem linka (npr. https://shiftmaster.replit.app).
+
+# ZAHTJEVI:
+1. Koristi jednostavan i skalabilan tech stack:
+   - Frontend: HTML + CSS + JavaScript (ili React ako je prikladno)
+   - Backend: Node.js s Express
+   - Baza: SQLite ili JSON file (što je lakše za početak)
+
+2. Struktura projekta neka bude čista i organizirana:
+   - `/frontend` – svi prikazi, komponente, dizajn
+   - `/backend` – poslovna logika, API
+   - `/models` – definicija podataka (Employee, Shift)
+   - `/routes` – API rute
+   - `/settings` – parametri koji će se često mijenjati
+   - `/utils` – pomoćne funkcije
+
+3. Web aplikacija mora biti:
+   - dostupna putem linka (hostano na Replitu, bez vlastite domene),
+   - spremna za česte nadogradnje i izmjene (posebno settings tab),
+   - jednostavna za korištenje (intuitivno sučelje),
+   - modularna – lako se uklanjaju/dodaju komponente (npr. statistika, izvještaji).
+
+4. Frontend i backend neka komuniciraju preko REST API-ja.
+
+5. NE trebaš raditi punu funkcionalnost odmah — samo napravi osnovni **kostur**:
+   - početna stranica u browseru (placeholder s tekstom "ShiftMaster Web App"),
+   - backend ruta `/api/shifts` koja vraća testne podatke (npr. JSON s 2-3 smjene),
+   - povezane datoteke i pripremljena struktura za daljnji razvoj,
+   - omogući da se projekt pokreće odmah na Replitu i otvara putem linka.
+
+6. Nakon što to završiš, molim te dodaj osnovnu stranicu (web sučelje) koja prikazuje:
+   - tablicu smjena (s testnim podacima),
+   - formu za dodavanje nove smjene (ime zaposlenika, datum, početak, kraj).
+
+# KONTEKST:
+Na ovom temelju ću graditi dalje — planiram redovito dodavati, mijenjati i uklanjati postavke, funkcije i prikaze ovisno o potrebama tima. Zato struktura mora biti stabilna i čista već sada.
+
+Ako vidiš način da nešto pojednostaviš bez gubitka fleksibilnosti – slobodno predloži.
